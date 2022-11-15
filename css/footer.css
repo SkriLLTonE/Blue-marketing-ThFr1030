@@ -1,0 +1,36 @@
+.footer {
+    background: #3FA5D5;
+    padding: 40px 0;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    font-family: 'RB', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: white;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer__links {
+    font-family: 'RR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: white;
+}
+.footer__links:hover {
+    font-weight: 700;
+}
